@@ -1,0 +1,17 @@
+{
+	"name": "ls_SQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "shopez.database.windows.net",
+			"database": "shopeezz",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sqladmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEE5Q0VGNkQyLTVBMTItNDM2OC05QkM0LUQ2OTg5Q0I3NEUzMl84NWFiZWUzMS0zMDJmLTQ4MmYtOTRlMS1kYmZmMzQxNmQ4NjciDQp9"
+		}
+	}
+}

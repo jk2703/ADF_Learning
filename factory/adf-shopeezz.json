@@ -1,0 +1,15 @@
+{
+	"name": "adf-shopeezz",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d50a0d14-d021-4e07-b001-b440cbc4167b",
+		"tenantId": "f578744e-0a7e-466d-98fa-65b7fefd823f"
+	}
+}

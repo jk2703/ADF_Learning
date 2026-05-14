@@ -1,0 +1,59 @@
+{
+	"name": "Ds_Sql_Products",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_SQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ProductId",
+				"type": "varchar"
+			},
+			{
+				"name": "ProductName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SubCategory",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Brand",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UnitPrice",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			},
+			{
+				"name": "CostPrice",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			},
+			{
+				"name": "IsActive",
+				"type": "bit"
+			},
+			{
+				"name": "LoadedAt",
+				"type": "datetime2",
+				"scale": 7
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "dim_Products"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
